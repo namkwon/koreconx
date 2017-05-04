@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KoreConX Task</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<div id="docList" class="container-fluid">
+		<div class="page-header">
+    		<h1>KoreConX Task</h1>
+    </div>
+
+		  <div class="row">
+		    <div class="col-sm-2 text-right">Information Circular<span style="color:red">*</span> </div>
+				<div class="col-sm-1"> <button class="btn btn-secondary btn-md uploadBtn" type="button"><i class="glyphicon glyphicon-upload"></i> Upload</button> </div>
+		    <div class="col-sm-2 text-right"> Financial Statements<span style="color:red">*</span> </div>
+				<div class="col-sm-1"> <button class="btn btn-secondary btn-md uploadBtn" type="button"><i class="glyphicon glyphicon-upload"></i> Upload</button> </div>
+		    <div class="col-sm-1 text-right"> Proxy<span style="color:red">*</span> </div>
+				<div class="col-sm-1"> <button class="btn btn-secondary btn-md uploadBtn" type="button"><i class="glyphicon glyphicon-upload"></i> Upload</button> </div>
+  		</div>
+			<div class="row">
+		    <div class="col-sm-2 text-right"> Document Name </div>
+				<div class="col-sm-2"> <input type="text" class="form-control"> </div>
+				<div class="col-sm-1"> <button class="btn btn-secondary btn-md uploadBtn" type="button"><i class="glyphicon glyphicon-upload"></i> Upload</button> </div>
+				<div class="col-sm-3 text-center">
+					<button id="addBtn" class="btn btn-primary btn-md" type="button"><i class="glyphicon glyphicon-plus-sign"></i> </button>
+					<button id="removeBtn" class="btn btn-primary btn-md" type="button"><i class="glyphicon glyphicon-minus-sign"></i> </button>
+				</div>
+  		</div>
+			<div class="row">
+		    <div class="col-sm-2 text-right"> Document Name </div>
+				<div class="col-sm-2"> <input type="text" class="form-control"> </div>
+				<div class="col-sm-1"> <button class="btn btn-secondary btn-md uploadBtn" type="button"><i class="glyphicon glyphicon-upload"></i> Upload</button> </div>
+  		</div>
+
+	</div>
+
+	<div style="display:none;">
+		<input type="file" id="uplodfile" />
+	</div>
+
+  	<script src="script.js"></script>
+
+</body>
+</html>
